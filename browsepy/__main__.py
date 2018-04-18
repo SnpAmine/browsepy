@@ -10,8 +10,8 @@ import warnings
 
 import flask
 
-from . import app
-from . import __meta__ as meta
+import app
+import __meta__ as meta
 from .compat import PY_LEGACY, getdebug, get_terminal_size
 from .transform.glob import translate
 
